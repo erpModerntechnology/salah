@@ -1,0 +1,5 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+access_account_installments_group_invoice,payments_notifications.account.notifications,payments_notifications.model_account_notification,account.group_account_manager,1,1,1,1
+access_account_installments_group_base,payments_notifications.account.notifications,payments_notifications.model_account_notification,account.group_account_invoice,1,1,1,0
+access_installment_wizard,payments_notifications.installment.wizard,payments_notifications.model_installment_wizard,account.group_account_invoice,1,1,1,1
+access_installment_report,payments_notifications.installment.report,payments_notifications.model_installment_report,account.group_account_invoice,1,1,1,1

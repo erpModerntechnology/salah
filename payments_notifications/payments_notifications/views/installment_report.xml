@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+
+
+
+        <record id="report_installment1" model="ir.actions.report">
+            <field name="name">Print Badge</field>
+            <field name="model">installment.report</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">payments_notifications.print_installment_report_template1</field>
+
+        </record>
+
+    </data>
+
+</odoo>
